@@ -11,13 +11,9 @@ narrator: Deutsch Male
 comment:  Try to write a short comment about
           your course, multiline is also okay.
 
-link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
-script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
-
-translation: Deutsch  translations/German.md
 -->
 
-# LiaScript Tutorial
+# LiaScript Workshop
 
 **Herzlich willkommen zum Crashkurs "LiaScript"!**
 
@@ -106,15 +102,52 @@ Version 1.0                           Version 1.1
 
 ## Welche Voraussetzungen müssen für diese Vision erfüllt sein?
 
-Der Realisierung der Open Educational Ressources (OER) Idee stehen erhebliche Herausforderungen entgegen:
+Der Realisierung der Open Educational Ressources (OER) Idee stehen erhebliche
+Herausforderungen entgegen:
 
 + Technische Anforderungen:
 
-    - Loslösung der Inhalte von spezifischen Lehr-Lern-Plattformen
-    - Unabhänigkeit von Server-Infrastrukturen, Installationen
-    - Komplexe Inhalte bei gleichzeitig intuitiver Bedienung
-    - Versionierbare Testdateien
+  - Loslösung der Inhalte von spezifischen Lehr-Lern-Plattformen
+  - Unabhänigkeit von Server-Infrastrukturen, Installationen
+  - Komplexe Inhalte bei gleichzeitig intuitiver Bedienung
+  - Versionierbare Textdateien
 
 + Soziale Anforderungen:
 
     - Umdenken in Bezug auf Lizenzen und Freigaben
+
+
+# Tutorial
+
+
+## Allgemeine Struktur
+
+
+## PowerPoint & Sprechen Lernen
+
+
+## Quizfrage?
+
+
+## Programmieren im Browser
+
+
+## Teile und Herrsche (mit Makros)
+
+
+## (Gimmicks)
+
+
+## Upload ... Wohin?
+
+
+### GitHub
+
+
+### DropBox
+
+
+### Moodle und andere LMS
+
+
+# Fragen
