@@ -21,12 +21,24 @@ translation: Deutsch  translations/German.md
 
 **Herzlich willkommen zum Crashkurs "LiaScript"!**
 
-Lassen Sie uns mit einer kleinen Umfrage beginnen. Welche Lernformate dominieren in Ihrer Lehre?
+Schön, dass Sie dabei sind! Lassen Sie uns mit einer kleinen Umfrage beginnen. Welche Lernformate dominieren in Ihrer Lehre?
 
 + (A) Tafel und Kreide
 + (B) Powerpointfolien / pdfs
 + (C) Inhalte von Learning Managment Systemen (Moodle, OPAL)
 + (D) keines davon
+
+
+                               {{1-2}}
+****************************************************************************
+
+**Ablauf:**
+
+1. Motivation des Konzeptes
+2. Tutorial
+3. Fragen und Feedbacks
+
+****************************************************************************
 
 
 ## Autoren auf Wikipedia.org vs. Lehrende
