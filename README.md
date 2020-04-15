@@ -114,7 +114,7 @@ Herausforderungen entgegen:
 
 + Soziale Anforderungen:
 
-    - Umdenken in Bezug auf Lizenzen und Freigaben
+  - Umdenken in Bezug auf Lizenzen und Freigaben
 
 
 # Tutorial
