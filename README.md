@@ -2,7 +2,7 @@
 author:   Your Name
 email:    your@mail.org
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -135,19 +135,49 @@ Herausforderungen entgegen:
 ## Teile und Herrsche (mit Makros)
 
 
+https://github.com/LiaTemplates/
+
+
 ## (Gimmicks)
+
+Tabellen & Diagramme
 
 
 ## Upload ... Wohin?
 
+https://LiaScript.github.io/course/?
+
+oder
+
+https://LiaScript.io/course/?
 
 ### GitHub
+
+
+https://github.com/LiaScript/Workshop
 
 
 ### DropBox
 
 
 ### Moodle und andere LMS
+
+
+https://github.com/LiaScript-Exporter/
+
+`liaex -i README.md -f scorm1.2 -o teste --masteryScore 20`
+
+
+## Weitere Quellen
+
+
+https://LiaScript.github.io
+
+https://github.com/LiaBooks
+
+https://www.youtube.com/watch?v=w_CRABsJNKA&t=10s
+
+https://www.youtube.com/channel/UCyiTe2GkW_u05HSdvUblGYg
 
 
 # Fragen
