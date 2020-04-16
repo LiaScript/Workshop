@@ -157,7 +157,7 @@ https://github.com/LiaScript/Workshop
 ### Moodle und andere LMS
 
 
-https://github.com/LiaScript-Exporter/
+https://github.com/LiaScript/LiaScript-Exporter/
 
 `liaex -i README.md -f scorm1.2 -o Workshop_ --masteryScore 20`
 
