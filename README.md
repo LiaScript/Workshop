@@ -3,12 +3,11 @@ author:   Your Name
 email:    your@mail.org
 version:  0.0.3
 language: en
-narrator: Deutsch Male
+narrator: UK English Male
 logo:     logo.jpg
 
 comment:  Try to write a short comment about
           your course, multiline is also okay.
-
 
 -->
 
@@ -16,7 +15,8 @@ comment:  Try to write a short comment about
 
 **Herzlich willkommen zum Crashkurs "LiaScript"!**
 
-Schön, dass Sie dabei sind! Lassen Sie uns mit einer kleinen Umfrage beginnen. Welche Lernformate dominieren in Ihrer Lehre?
+Schön, dass Sie dabei sind! Lassen Sie uns mit einer kleinen Umfrage beginnen.
+Welche Lernformate dominieren in Ihrer Lehre?
 
 + (A) Tafel und Kreide
 + (B) Powerpointfolien / pdfs
@@ -38,7 +38,8 @@ Schön, dass Sie dabei sind! Lassen Sie uns mit einer kleinen Umfrage beginnen. 
 
 ## Autoren auf Wikipedia.org vs. Lehrende
 
-Was unterscheidet Autoren, die unter [Wikipedia](https://www.wikipedia.de/) aktiv sind, von Lehrenden, die ihre Materialien aufbereiten?
+Was unterscheidet Autoren, die unter [Wikipedia](https://www.wikipedia.de/)
+aktiv sind, von Lehrenden, die ihre Materialien aufbereiten?
 
 <!--style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"-->
 ```ascii
@@ -91,7 +92,8 @@ Was unterscheidet Autoren, die unter [Wikipedia](https://www.wikipedia.de/) akti
 >                                       | Während der italienischen |
 >                                       | Reise ...                 |
 > ```
-> Wünschenswert ist eine Wiederverwendbarkeit von Inhalten in unterschiedlichen Kontexten und Formaten.
+> Wünschenswert ist eine Wiederverwendbarkeit von Inhalten in unterschiedlichen
+> Kontexten und Formaten.
 
 
 ## Welche Voraussetzungen müssen für diese Vision erfüllt sein?
@@ -99,19 +101,26 @@ Was unterscheidet Autoren, die unter [Wikipedia](https://www.wikipedia.de/) akti
 Der Realisierung der Open Educational Ressources (OER) Idee stehen erhebliche
 Herausforderungen entgegen:
 
-+ Technische Anforderungen:
+*  Technische Anforderungen:
 
-  - Loslösung der Inhalte von spezifischen Lehr-Lern-Plattformen
-  - Unabhänigkeit von Server-Infrastrukturen, Installationen
-  - Komplexe Inhalte bei gleichzeitig intuitiver Bedienung
-  - Versionierbare Textdateien
+  -  Loslösung der Inhalte von spezifischen Lehr-Lern-Plattformen
+  -  Unabhänigkeit von Server-Infrastrukturen, Installationen
+  -  Komplexe Inhalte bei gleichzeitig intuitiver Bedienung
+  -  Versionierbare Textdateien
 
-+ Soziale Anforderungen:
++  Soziale Anforderungen:
 
   - Umdenken in Bezug auf Lizenzen und Freigaben
 
 
 # Tutorial
+
+
+https://LiaScript.github.io
+
+oder
+
+https://LiaScript.io
 
 
 ## Allgemeine Struktur
@@ -126,7 +135,7 @@ Herausforderungen entgegen:
 ## Programmieren im Browser
 
 
-## Teilen und Herrschen (mit Makros)
+## Teilen und Herrschen (mit Plugins)
 
 
 https://github.com/LiaTemplates/
@@ -154,13 +163,13 @@ https://github.com/LiaScript/Workshop
 ### DropBox
 
 
+
 ### Moodle und andere LMS
 
 
 https://github.com/LiaScript/LiaScript-Exporter/
 
 `liaex -i README.md -f scorm1.2 -o Workshop_ --masteryScore 20`
-
 
 
 ## Weitere Quellen
