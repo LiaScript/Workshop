@@ -1,13 +1,15 @@
 <!--
-author:   Your Name
-email:    your@mail.org
+author:   Sebastian Zug & André Dietrich
+email:    andre.dietrich@Informatik.tu-freiberg.de
 version:  0.0.4
-language: en
-narrator: UK English Male
+language: de
+narrator: Deutsch Male
 logo:     logo.jpg
 
 comment:  Try to write a short comment about
           your course, multiline is also okay.
+
+import: https://raw.githubusercontent.com/liaTemplates/rextester/master/README.md
 
 -->
 
@@ -120,13 +122,100 @@ https://LiaScript.io
 ## PowerPoint & Sprechen Lernen
 
 
+        --{{1}}--
+Zuerst erscheint eine Tabelle.
+
+
+        {{1-2}}
+| Header 1 | Header 2 | Header 3 |
+|:-------- |:-------- |:-------- |
+| Item 1   | Item 2   | Item 3   |
+| test     |          | Wichtig  |
+
+      --{{2}}--
+Und dann eine Liste mit wichtigen Punkten.
+
+
+       {{2}}
+* Dies ist
+* eine __kleine__
+* Liste {3}{_wichtiger_} Informationen.
+
+
+--{{3 Russian Male}}--
+Markdown (произносится маркда́ун) — облегчённый язык разметки, созданный с целью написания наиболее читаемого и удобного для правки текста, но пригодного для преобразования в языки для продвинутых публикаций (HTML, Rich Text и других).
+
 ## Quizfrage?
+
+
+Hat ihnen das gefallen?
+
+   [[Ja]]
+   <script>
+     // @input will be replace by the user input
+     let input_string = "@input";
+     "ja" == input_string.trim().toLowerCase();
+   </script>
+
+
+Wie hat Ihnen der Kurs gefallen?
+
+
+[[X]] Gut
+[[X]] Super
+[[ ]] Schlecht
+[[?]] Es gibt zwei mögliche Anworten
+[[?]] Es gibt zwei mögliche Anworten
+[[?]] Die ersten beiden
+****************************************
+
+Add a solution explanation __Markdown__!
+
+$$
+   \sum_{i=1}^\infty\frac{1}{n^2}
+        =\frac{\pi^2}{6}
+$$
+
+****************************************
+
 
 
 ## Programmieren im Browser
 
 
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+<script>@input</script>
+
+
 ## Teilen und Herrschen (mit Plugins)
+
+
+```armasm
+;nasm 2.11.08
+
+section .data
+    hello:     db 'Hello world!',10    ; 'Hello world!' plus a linefeed character
+    helloLen:  equ $-hello             ; Length of the 'Hello world!' string
+
+section .text
+	global _start
+
+_start:
+	mov eax,4            ; The system call for write (sys_write)
+	mov ebx,1            ; File descriptor 1 - standard output
+	mov ecx,hello        ; Put the offset of hello in ecx
+	mov edx,helloLen     ; helloLen is a constant, so we don't need to say
+	                     ;  mov edx,[helloLen] to get it's actual value
+	int 80h              ; Call the kernel
+
+	mov eax,1            ; The system call for exit (sys_exit)
+	mov ebx,0            ; Exit with return code of 0 (no error)
+	int 80h;
+```
+@Rextester.eval(@Nasm)
 
 
 https://github.com/LiaTemplates/
@@ -136,6 +225,19 @@ https://github.com/LiaTemplates/
 
 Tabellen & Diagramme & Multimedia
 
+
+                                Multiline
+1.9 |
+    |                 ***
+  y |               *     *
+  - | r r r r r r r*r r r r*r r r r r r r
+  a |             *         *
+  x |            *           *
+  i | B B B B B * B B B B B B * B B B B B
+  s |         *                 *
+    | *  * *                       * *  *
+ -1 +------------------------------------
+    0              x-axis               1
 
 ## Upload ... Wohin?
 
