@@ -41,9 +41,7 @@ Schön, dass Sie dabei sind! Lassen Sie uns mit einer kleinen Umfrage beginnen. 
 
 Was unterscheidet Autoren, die unter [Wikipedia](https://www.wikipedia.de/) aktiv sind, von Lehrenden, die ihre Materialien aufbereiten?
 
-<!--
-style="width: 100%; max-width: 660px; display: block; margin-left: auto; margin-right: auto;"
--->
+<!--style="width: 100%; max-width: 660px; display: block; margin-left: auto; margin-right: auto;"-->
 ```ascii
 
         Wikipedia Artikel                  Vorlesungsfolien
@@ -65,38 +63,35 @@ style="width: 100%; max-width: 660px; display: block; margin-left: auto; margin-
 
 ## Wie sehe der Wikipedia-Ansatz in Bezug auf Lehrmatierialien aus?
 
-<!--
-style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;"
--->
-```ascii
-
-Version 1.0                           Version 1.1
-+--------------------------+          +---------------------------+
-| Kurs  Deutsche Literatur |          | Kurs  Deutsche Literatur  |
-| Autor Peter Muster       | "Fehler" | Autoren Peter Muster      |
-|                          |------>   |         Angelika Maier    |----->
-|~~~~~~~~~~~~~~~~~~~~~~~~~~|          |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-| Ab 1756 bereiste Goethe  |---.      | Ab 1786 bereiste Goethe   |--.
-| Italien ...              |   |      | Italien ...               |  |
-                               |                                     |
-                               |                                     |    +----------------------------+
-                               |                                     |    | Kurs  German Literature    |
-                               |                                     |    | Autoren Peter Muster       |
-                               |                                     .--> |         Angelika Maier     |
-                               |                                          |         Steve Gray         |
-                               |                                          |~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-                               |                                          | In 1786 Goethe traveled to |
-                               |                                          | Italy ...                  |
-                               |       Version 1.0
-                               |      +---------------------------+
-                               |      | Kurs  Goethes Welt        |
-                               |      | Autoren Peter Muster      |
-                               .-->   |         Angelika Maier    |----->
-                                      |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-                                      | Während der italienischen |
-                                      | Reise ...                 |
-```
-
+> <!-- style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;" -->
+> ```ascii
+>
+> Version 1.0                           Version 1.1
+> +--------------------------+          +---------------------------+
+> | Kurs  Deutsche Literatur |          | Kurs  Deutsche Literatur  |
+> | Autor Peter Muster       | "Fehler" | Autoren Peter Muster      |
+> |                          |------>   |         Angelika Maier    |----->
+> |~~~~~~~~~~~~~~~~~~~~~~~~~~|          |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+> | Ab 1756 bereiste Goethe  |---.      | Ab 1786 bereiste Goethe   |--.
+> | Italien ...              |   |      | Italien ...               |  |
+>                                |                                     |
+>                                |                                     |    +----------------------------+
+>                                |                                     |    | Kurs  German Literature    |
+>                                |                                     |    | Autoren Peter Muster       |
+>                                |                                     .--> |         Angelika Maier     |
+>                                |                                          |         Steve Gray         |
+>                                |                                          |~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+>                                |                                          | In 1786 Goethe traveled to |
+>                                |                                          | Italy ...                  |
+>                                |       Version 1.0
+>                                |      +---------------------------+
+>                                |      | Kurs  Goethes Welt        |
+>                                |      | Autoren Peter Muster      |
+>                                .-->   |         Angelika Maier    |----->
+>                                       |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+>                                       | Während der italienischen |
+>                                       | Reise ...                 |
+> ```
 > Wünschenswert ist eine Wiederverwendbarkeit von Inhalten in unterschiedlichen Kontexten und Formaten.
 
 
