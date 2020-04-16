@@ -1,7 +1,7 @@
 <!--
 author:   Your Name
 email:    your@mail.org
-version:  0.0.3
+version:  0.0.4
 language: en
 narrator: UK English Male
 logo:     logo.jpg
@@ -13,28 +13,18 @@ comment:  Try to write a short comment about
 
 # LiaScript Workshop
 
-**Herzlich willkommen zum Crashkurs "LiaScript"!**
+**Herzlich willkommen zum Tutorial "LiaScript"!**
 
-Schön, dass Sie dabei sind! Lassen Sie uns mit einer kleinen Umfrage beginnen.
-Welche Lernformate dominieren in Ihrer Lehre?
+Sebastian Zug, Andrè Dietrich (Technische Bergakademie Freiberg)
 
-+ (A) Tafel und Kreide
-+ (B) Powerpointfolien / pdfs
-+ (C) Inhalte von Learning Managment Systemen (Moodle, OPAL)
-+ (D) keines davon
+--------------------------------------------------
 
 
-                               {{1-2}}
-****************************************************************************
+_Ablauf:_
 
-**Ablauf:**
-
-1. Motivation des Konzeptes
-2. Tutorial
-3. Fragen und Feedbacks
-
-****************************************************************************
-
+1. Motivation des Konzeptes (10 Min)
+2. Tutorial (35-40 Min)
+3. Fragen und Feedbacks (10 Min)
 
 ## Autoren auf Wikipedia.org vs. Lehrende
 
@@ -101,14 +91,15 @@ aktiv sind, von Lehrenden, die ihre Materialien aufbereiten?
 Der Realisierung der Open Educational Ressources (OER) Idee stehen erhebliche
 Herausforderungen entgegen:
 
-*  Technische Anforderungen:
+* Technische Anforderungen:
 
-  -  Loslösung der Inhalte von spezifischen Lehr-Lern-Plattformen
-  -  Unabhänigkeit von Server-Infrastrukturen, Installationen
-  -  Komplexe Inhalte bei gleichzeitig intuitiver Bedienung
-  -  Versionierbare Textdateien
+  - Loslösung der Inhalte von spezifischen Lehr-Lern-Plattformen
+  - Unabhänigkeit von Server-Infrastrukturen, Installationen
+  - Komplexe Inhalte bei gleichzeitig intuitiver Bedienung
+  - Versionierbare Textdateien
 
-+  Soziale Anforderungen:
+
++ Soziale Anforderungen:
 
   - Umdenken in Bezug auf Lizenzen und Freigaben
 
