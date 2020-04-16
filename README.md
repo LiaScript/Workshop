@@ -1,15 +1,14 @@
 <!--
 author:   Your Name
 email:    your@mail.org
-
-version:  0.0.2
-
-language: de
-
+version:  0.0.3
+language: en
 narrator: Deutsch Male
+logo:     logo.jpg
 
 comment:  Try to write a short comment about
           your course, multiline is also okay.
+
 
 -->
 
@@ -41,7 +40,7 @@ Schön, dass Sie dabei sind! Lassen Sie uns mit einer kleinen Umfrage beginnen. 
 
 Was unterscheidet Autoren, die unter [Wikipedia](https://www.wikipedia.de/) aktiv sind, von Lehrenden, die ihre Materialien aufbereiten?
 
-<!--style="width: 100%; max-width: 660px; display: block; margin-left: auto; margin-right: auto;"-->
+<!--style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"-->
 ```ascii
 
         Wikipedia Artikel                  Vorlesungsfolien
@@ -127,7 +126,7 @@ Herausforderungen entgegen:
 ## Programmieren im Browser
 
 
-## Teile und Herrsche (mit Makros)
+## Teilen und Herrschen (mit Makros)
 
 
 https://github.com/LiaTemplates/
@@ -135,7 +134,7 @@ https://github.com/LiaTemplates/
 
 ## (Gimmicks)
 
-Tabellen & Diagramme
+Tabellen & Diagramme & Multimedia
 
 
 ## Upload ... Wohin?
@@ -160,7 +159,8 @@ https://github.com/LiaScript/Workshop
 
 https://github.com/LiaScript-Exporter/
 
-`liaex -i README.md -f scorm1.2 -o teste --masteryScore 20`
+`liaex -i README.md -f scorm1.2 -o Workshop_ --masteryScore 20`
+
 
 
 ## Weitere Quellen
