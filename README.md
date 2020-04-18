@@ -147,9 +147,9 @@ Und dann eine Liste mit wichtigen Punkten.
 * eine __kleine__
 * Liste {3}{_wichtiger_} Informationen.
 
+ 
 
-
-    --{{3 Russian Male}}--
+--{{3 Russian Male}}--
 Markdown (произносится маркда́ун) — облегчённый язык разметки, созданный с целью
 написания наиболее читаемого и удобного для правки текста, но пригодного для
 преобразования в языки для продвинутых публикаций (HTML, Rich Text и других).
