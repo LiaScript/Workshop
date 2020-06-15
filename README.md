@@ -68,7 +68,10 @@ style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-
 ```
 == Geschichte ==
 
-Die [[Bergakademie]] Freiberg wurde 1765, in der Zeit der [[Aufklärung]], durch [[Franz Xaver von Sachsen|Prinz Xaver von Sachsen]] nach den Plänen von [[Friedrich Wilhelm von Oppel]] (1720–1767) und [[Friedrich Anton von Heynitz]] unter dem Namen ''Kurfürstlich-Sächsische Bergakademie zu Freiberg''
+Die [[Bergakademie]] Freiberg wurde 1765, in der Zeit der [[Aufklärung]], durch
+[[Franz Xaver von Sachsen|Prinz Xaver von Sachsen]] nach den Plänen von
+[[Friedrich Wilhelm von Oppel]] (1720–1767) und [[Friedrich Anton von Heynitz]]
+unter dem Namen ''Kurfürstlich-Sächsische Bergakademie zu Freiberg''
 ```
 
 ![Konflikt](./img/LiaScript.png)<!--
@@ -93,7 +96,7 @@ Verknüpfung der orthogonalen Zielstellungen über eine erweiterte Beschreibungs
 
 ## Bearbeitungsphasen
 
-{{0-1}}
+    {{0-1}}
 ************************************************
 
 <!--
@@ -126,7 +129,7 @@ Generierung                    Publikation          Konsum durch Lernende
 
 ************************************************
 
-{{1-2}}
+    {{1-2}}
 ************************************************
 
 <!--
@@ -159,7 +162,7 @@ Generierung                    Publikation          Konsum durch Lernende
 
 ************************************************
 
-{{2-3}}
+    {{2-3}}
 ************************************************
 
 ![Konflikt](./img/GitScreenShot.png)<!--
@@ -201,7 +204,7 @@ Und dann eine Liste mit wichtigen Punkten.
 
 
 
---{{3 Russian Male}}--
+    --{{3 Russian Male}}--
 Markdown (произносится маркда́ун) — облегчённый язык разметки, созданный с целью
 написания наиболее читаемого и удобного для правки текста, но пригодного для
 преобразования в языки для продвинутых публикаций (HTML, Rich Text и других).
@@ -299,6 +302,24 @@ Tabellen & Diagramme & Multimedia
         | *  * *                       * *  *
      -1 +------------------------------------
         0              x-axis               1
+
+
+
+## Fun avec Sprachen
+
+
+
+
+## Spaß mit Tabellen
+
+
+
+### Diagramme
+
+
+
+### Graphen
+
 
 ## Upload ... Wohin?
 
