@@ -13,15 +13,13 @@ import: https://raw.githubusercontent.com/liaTemplates/rextester/master/README.m
 
 -->
 
-# LiaScript Workshop
+# Freie Lehr-Lern-Materialien ohne Wenn und Aber
 
-**Herzlich willkommen zum Tutorial "LiaScript"!**
+**Die Entwicklung von interaktiven Vorlesungen mit LiaScript**
+
+_Tag der Lehre 2020_
 
 Sebastian Zug, Andrè Dietrich (Technische Bergakademie Freiberg)
-
---------------------------------------------------
-
-!?[Webinar Aufzeichnung](https://www.youtube.com/watch?v=-JyKxvAkAP0)
 
 --------------------------------------------------
 
@@ -31,95 +29,149 @@ _Ablauf:_
 2. Tutorial (35-40 Min)
 3. Fragen und Feedbacks (10 Min)
 
+--------------------------------------------------
 
+**Herzlich Willkommen!** <!-- style = "color: blue;" -->
 
+## Widerspruch der Digitalen Lehre
 
-## Autoren auf Wikipedia.org vs. Lehrende
+                 {{0-1}}
+************************************************
 
-Was unterscheidet Autoren, die unter [Wikipedia](https://www.wikipedia.de/)
-aktiv sind, von Lehrenden, die ihre Materialien aufbereiten?
+![Konflikt](./img/conflict.png)<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
 
-<!--style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"-->
-```ascii
+************************************************
 
-        Wikipedia Artikel                  Vorlesungsfolien
-        Künstliche Intelligenz             Künstliche Intelligenz
-        ------------------------           ------------------------
-        826 Autoren - 1 Artikel            n Autoren - n Foliensätze
+                  {{1-2}}
+************************************************
 
-       \   |   /    | \                              +-+            +-+
-        v  v  v     v  v                           ->| |          ->| |
-        +----------------+                   +-+     +-+            +-+
-     -> | KI ist ein     |\                ->| |
-        | Teilgebiet der +-+                 +-+              +-+     +-+
-      ^ | Informatik ...   | <-                        +-+  ->| |   ->| |
-     /  +------------------+                    +-+  ->| |    +-+     +-+
-          ^   ^    ^   ^ ^                    ->| |    +-+
-          |    \  /    | |                      +-+                            .
+![Konflikt](./img/JS.png)<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
+
+************************************************
+
+                  {{2-4}}
+************************************************
+
+![Konflikt](./img/allAspects.png)<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
+
+************************************************
+
+                  {{3-4}}
+************************************************
+
+```
+== Geschichte ==
+
+Die [[Bergakademie]] Freiberg wurde 1765, in der Zeit der [[Aufklärung]], durch [[Franz Xaver von Sachsen|Prinz Xaver von Sachsen]] nach den Plänen von [[Friedrich Wilhelm von Oppel]] (1720–1767) und [[Friedrich Anton von Heynitz]] unter dem Namen ''Kurfürstlich-Sächsische Bergakademie zu Freiberg''
 ```
 
-
-## Wie sehe der Wikipedia-Ansatz in Bezug auf Lehrmatierialien aus?
-
-> <!-- style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;" -->
-> ```ascii
->
-> Version 1.0                           Version 1.1
-> +--------------------------+          +---------------------------+
-> | Kurs  Deutsche Literatur |          | Kurs  Deutsche Literatur  |
-> | Autor Peter Muster       | "Fehler" | Autoren Peter Muster      |
-> |                          |------>   |         Angelika Maier    |----->
-> |~~~~~~~~~~~~~~~~~~~~~~~~~~|          |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-> | Ab 1756 bereiste Goethe  |---.      | Ab 1786 bereiste Goethe   |--.
-> | Italien ...              |   |      | Italien ...               |  |
->                                |                                     |
->                                |                                     |    +----------------------------+
->                                |                                     |    | Kurs  German Literature    |
->                                |                                     |    | Autoren Peter Muster       |
->                                |                                     .--> |         Angelika Maier     |
->                                |                                          |         Steve Gray         |
->                                |                                          |~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
->                                |                                          | In 1786 Goethe traveled to |
->                                |                                          | Italy ...                  |
->                                |       Version 1.0
->                                |      +---------------------------+
->                                |      | Kurs  Goethes Welt        |
->                                |      | Autoren Peter Muster      |
->                                .-->   |         Angelika Maier    |----->
->                                       |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
->                                       | Während der italienischen |
->                                       | Reise ...                 |
-> ```
-> Wünschenswert ist eine Wiederverwendbarkeit von Inhalten in unterschiedlichen
-> Kontexten und Formaten.
+![Konflikt](./img/LiaScript.png)<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
 
 
-## Welche Voraussetzungen müssen für diese Vision erfüllt sein?
+************************************************
 
-Der Realisierung der Open Educational Ressources (OER) Idee stehen erhebliche
-Herausforderungen entgegen:
+## LiaScript-Konzept
 
-* Technische Anforderungen:
+![Konflikt](./img/LiaScript.png)<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
 
-  - Loslösung der Inhalte von spezifischen Lehr-Lern-Plattformen
-  - Unabhänigkeit von Server-Infrastrukturen, Installationen
-  - Komplexe Inhalte bei gleichzeitig intuitiver Bedienung
-  - Versionierbare Textdateien
+Verknüpfung der orthogonalen Zielstellungen über eine erweiterte Beschreibungssprache mit:
 
-
-+ Soziale Anforderungen:
-
-  - Umdenken in Bezug auf Lizenzen und Freigaben
++ dynamischen Inhalte zur Umsetzung lehrrelevanter Formate (Quizze, Animationen, Grafiken)
++ einer serverlosen Bearbeitung- und Ausführungsumgebung
++ Schnittstellen zur Erweiterung mittels Plugins und der Integration in etablierte LMS
 
 
-# Tutorial
+## Bearbeitungsphasen
+
+{{0-1}}
+************************************************
+
+<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
+```ascii
+
+Generierung                    Publikation          Konsum durch Lernende
 
 
-https://LiaScript.github.io
 
-oder
+    | Plugin A                                      ╔══════╡ Browser   ╞══════╗
+    |  | Plugin B                           nativ   ║ Digitale Systeme        ║
+    v  v                                  +-------> ║ (WiSe 2020)             ║
++---------------------+                   |         ║                         ║
+| # Digitale Systeme  |\          .-,(  ),-.        ╚═════════════════════════╝
+| (WiSe 2020)         +-+      .-(          )-.
+|                       | --> ( Cloud Speicher )    ╔══════╡ OPAL      ╞══════╗
+| Fallbeispiele         |      '-(         ).-'     ║ Digitale Systeme        ║
+| + ...                 |         '-.( ).-' SCORM   ║ (WiSe 2020)             ║
++-----------------------+                 +-------> ║                         ║
+                                          |         ╚═════════════════════════╝
+                                          |
+                                          |         ╔══════╡ pdfViewer ╞══════╗
+                                          | export  ║ Digitale Systeme        ║
+                                          +-------> ║ (WiSe 2020)             ║
+                                                    ║                         ║
+                                                    ╚═════════════════════════╝   .
+```
 
-https://LiaScript.io
+************************************************
+
+{{1-2}}
+************************************************
+
+<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
+```ascii
+
+Generierung                    Publikation          Konsum durch Lernende
+
+                   ::::::::::::::::::::::::::Feedbacks:::::::::::::::::::::::::::::
+                   ::                                                            ::
+    | Plugin A     ::                               ╔══════╡ Browser   ╞══════╗  ::
+    |  | Plugin B  ::                       nativ   ║ Digitale Systeme        ║  ::
+    v  v           vv                     +-------> ║ (WiSe 2020)             ║::::
++---------------------+                   |         ║                         ║  ::
+| # Digitale Systeme  |\          .-,(  ),-.        ╚═════════════════════════╝  ::
+| (WiSe 2020)         +-+      .-(          )-.                                  ::
+|                       | --> ( Cloud Speicher )    ╔══════╡ OPAL      ╞══════╗  ::
+| Fallbeispiele         |      '-(         ).-'     ║ Digitale Systeme        ║  ::
+| + ...                 |         '-.( ).-' SCORM   ║ (WiSe 2020)             ║::::
++-----------------------+                 +-------> ║                         ║  ::
+                                          |         ╚═════════════════════════╝  ::
+                                          |                                      ::
+                                          |         ╔══════╡ pdfViewer ╞══════╗  ::
+                                          | export  ║ Digitale Systeme        ║  ::
+                                          +-------> ║ (WiSe 2020)             ║::::
+                                                    ║                         ║
+                                                    ╚═════════════════════════╝
+```
+
+************************************************
+
+{{2-3}}
+************************************************
+
+![Konflikt](./img/GitScreenShot.png)<!--
+style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
+-->
+
+************************************************
+
+# Und nun
+
+
+... wird des praktisch
 
 
 ## Allgemeine Struktur
@@ -147,7 +199,7 @@ Und dann eine Liste mit wichtigen Punkten.
 * eine __kleine__
 * Liste {3}{_wichtiger_} Informationen.
 
- 
+
 
 --{{3 Russian Male}}--
 Markdown (произносится маркда́ун) — облегчённый язык разметки, созданный с целью
