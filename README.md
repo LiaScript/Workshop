@@ -1,7 +1,7 @@
 <!--
 author:   Sebastian Zug & André Dietrich
 email:    andre.dietrich@Informatik.tu-freiberg.de
-version:  0.0.5
+version:  0.0.6
 language: de
 narrator: Deutsch Male
 logo:     logo.jpg
@@ -631,7 +631,7 @@ https://ourworldindata.org/financing-education#all-charts-preview
 
 > GeoJson Sammlung: https://code.highcharts.com/mapdata/
 
-<!-- data-type="BarChart" style="height: 700px" -->
+<!-- data-type="Map" style="height: 700px" data-src="https://cors-anywhere.herokuapp.com/https://code.highcharts.com/mapdata/custom/europe.geo.json"-->
 | Country                | percent |
 | ---------------------- | ------- |
 | Albania                | 73.5    |
@@ -766,6 +766,8 @@ __Merkmale:__
 
 * Offline first: funktioniert auch offline
 * Installierbar: kann wie eine App installiert werden
+* Zugriff auf Sensoren und GPS (WebApp):
+  https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs
 * Push-Notifications: ...
 
 
