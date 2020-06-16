@@ -66,6 +66,8 @@ _Ablauf:_
 2. Tutorial (35-40 Min)
 3. Fragen und Feedbacks (10 Min)
 
+> Die Interaktive Version dieser Materialien finden Sie unter ...
+
 --------------------------------------------------
 
 **Herzlich Willkommen!** <!-- style = "color: blue;" -->
@@ -75,16 +77,17 @@ _Ablauf:_
                  {{0-1}}
 ************************************************
 
-![Konflikt](./img/conflict.png)<!--
+![Konflikt](https://raw.githubusercontent.com/liaScript/Workshop/master/img/conflict.png)<!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
+
 
 ************************************************
 
                   {{1-2}}
 ************************************************
 
-![Konflikt](./img/JS.png)<!--
+![Konflikt](https://raw.githubusercontent.com/liaScript/Workshop/master/img/JS.png)<!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
 
@@ -93,7 +96,7 @@ style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-
                   {{2-4}}
 ************************************************
 
-![Konflikt](./img/allAspects.png)<!--
+![Konflikt](https://raw.githubusercontent.com/liaScript/Workshop/master/img/allAspects.png)<!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
 
@@ -111,7 +114,7 @@ Die [[Bergakademie]] Freiberg wurde 1765, in der Zeit der [[Aufklärung]], durch
 unter dem Namen ''Kurfürstlich-Sächsische Bergakademie zu Freiberg''
 ```
 
-![Konflikt](./img/LiaScript.png)<!--
+![Konflikt](https://raw.githubusercontent.com/liaScript/Workshop/master/img/WikipediaBAF.png)<!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
 
@@ -120,7 +123,7 @@ style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-
 
 ## LiaScript-Konzept
 
-![Konflikt](./img/LiaScript.png)<!--
+![Konflikt](https://raw.githubusercontent.com/liaScript/Workshop/master/img/LiaScript.png)<!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
 
@@ -139,7 +142,7 @@ Verknüpfung der orthogonalen Zielstellungen über eine erweiterte Beschreibungs
 <!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
-```ascii
+`````````
 
 Generierung                    Publikation          Konsum durch Lernende
 
@@ -162,17 +165,17 @@ Generierung                    Publikation          Konsum durch Lernende
                                           +-------> ║ (WiSe 2020)             ║
                                                     ║                         ║
                                                     ╚═════════════════════════╝   .
-```
+`````````
 
 ************************************************
 
-    {{1-2}}
+    {{1-3}}
 ************************************************
 
 <!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
-```ascii
+`````````
 
 Generierung                    Publikation          Konsum durch Lernende
 
@@ -195,14 +198,14 @@ Generierung                    Publikation          Konsum durch Lernende
                                           +-------> ║ (WiSe 2020)             ║::::
                                                     ║                         ║
                                                     ╚═════════════════════════╝
-```
+`````````
 
 ************************************************
 
     {{2-3}}
 ************************************************
 
-![Konflikt](./img/GitScreenShot.png)<!--
+![Konflikt](https://raw.githubusercontent.com/liaScript/Workshop/master/img/GitScreenShot.png)<!--
 style="width: 100%; max-width: 560px; display: block; margin-left: auto; margin-right: auto;"
 -->
 
