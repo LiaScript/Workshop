@@ -755,6 +755,21 @@ https://github.com/LiaScript/LiaScript-Exporter/
 `liaex -i README.md -f scorm1.2 -o Workshop_ --masteryScore 20`
 
 
+## Technologie hinter LiaScript
+
+
+> __PWA: Progressive Web App__
+>
+> https://de.wikipedia.org/wiki/Progressive_Web_App
+
+__Merkmale:__
+
+* Offline first: funktioniert auch offline
+* Installierbar: kann wie eine App installiert werden
+* Push-Notifications: ...
+
+
+
 ## Weitere Quellen
 
 
